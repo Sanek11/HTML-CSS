@@ -1,0 +1,98 @@
+body {
+    background: #f8f8f8;
+}
+
+font-family: "Times New Roman",
+serif,
+Verdana;
+ul {
+    color: aqua;
+}
+
+.menu {
+    font-style: oblique;
+    font-size: 25px;
+    color: gold;
+    list-style-type: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: gold;
+}
+
+.menu a:hover {
+    color: darkgoldenrod;
+}
+
+.background {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background: #eaeaea
+}
+
+p.shortdescription {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+p.detaileddescription {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.characteristics {
+    font-weight: 600;
+    color: darkblue;
+    list-style-image: url(../image/logo1.jpg)
+}
+
+.description {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a.description:hover {
+    color: red;
+}
+
+a .borderimg {
+    outline: 1px solid gray;
+}
+
+a .borderimg:hover {
+    outline: none;
+}
+
+.border li input {
+    width: 230px;
+    height: 20px;
+}
+
+ul.border {
+    list-style-type: none;
+}
+
+.border li input {
+    color: gray;
+}
+
+.border li input {
+    text-transform: capitalize;
+}
+
+.border li textarea {
+    text-transform: capitalize;
+    color: gray;
+}
+
+.email input:focus {
+    background-color: blue;
+    color: red;
+}
