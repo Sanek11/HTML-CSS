@@ -466,22 +466,33 @@ i.next-arrow2 {
     line-height: 48px;
     text-align: left;
 }
-.block6{
+
+.block6 {
     display: flex;
     margin-top: 120px;
 }
+
 .block6_left {
     width: 570px;
     height: 570px;
     margin-left: 98px;
     margin-right: 30px;
-    background-color: aqua;
+    background-image: url(img/product-1-lg.jpg)
 }
 
 .block6_right {
     width: 570px;
     height: 570px;
-    background-color: blue;
+}
+
+.qwe1,
+.qwe3 {
+    margin-right: 25px;
+}
+
+.qwe1,
+.qwe2 {
+    margin-bottom: 25px;
 }
 
 .asd {
