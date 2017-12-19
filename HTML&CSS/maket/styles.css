@@ -141,7 +141,8 @@ a.search {
 
 .text_box a:hover,
 .second_block a:hover,
-.text_box3 a:hover {
+.text_box3 a:hover,
+.pillow a:hover{
     box-shadow: 0 0 0 #eee;
     position: relative;
     top: 2px;
@@ -494,7 +495,47 @@ i.next-arrow2 {
 .qwe2 {
     margin-bottom: 25px;
 }
+.pillow{
+    margin-left: 31px;
+    margin-top: 165px;
+}
+.pillow .back{
+    margin-top: 34px;
+}
+.pillow .leftchair_txt{
+    width: 359px;
+}
 
+.qwe1:hover,
+.qwe2:hover,
+.qwe3:hover,
+.qwe4:hover{
+    outline: 1px solid black;
+}
+.mobile_app{
+    width: 1366px;
+    height: 516px;
+    margin-top: 120px;
+    background-image: url(img/hand.jpg);
+}
+.mobile_title{
+    font-family: Montserrat;
+    color:  #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+}
+.find{
+    height: 116px;
+    width: 407px;
+    font-family: Montserrat;
+    color:  #212121;
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 72px;
+    text-align: left;
+}
 .asd {
     height: 200px;
 }
