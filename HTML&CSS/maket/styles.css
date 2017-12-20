@@ -518,6 +518,10 @@ i.next-arrow2 {
     margin-top: 120px;
     background-image: url(img/hand.jpg);
 }
+.mobile_wrap{
+    padding-left: 99px;
+    padding-top: 74px;
+}
 .mobile_title{
     font-family: Montserrat;
     color:  #6c6c6c;
@@ -527,7 +531,7 @@ i.next-arrow2 {
     text-align: left;
 }
 .find{
-    height: 116px;
+    height: 155px;
     width: 407px;
     font-family: Montserrat;
     color:  #212121;
@@ -535,6 +539,28 @@ i.next-arrow2 {
     font-weight: 100;
     line-height: 72px;
     text-align: left;
+}
+.mobile_tag{
+    font-family: Montserrat;
+    color:  #6c6c6c;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 33px;
+}
+.google,
+.apple{
+    width: 135px;
+    height: 40px;
+}
+.apple{
+    margin-right: 10px;
+}
+.footer{
+    background-color:  #f7f7f7;
+    width: 1366px;
+    height: 384px;
 }
 .asd {
     height: 200px;
