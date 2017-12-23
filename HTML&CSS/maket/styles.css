@@ -562,6 +562,16 @@ i.next-arrow2 {
     background-color:  #f7f7f7;
     width: 1366px;
     height: 384px;
+    padding-top: 99px;
+}
+.footer_title{
+    font-family: Montserrat;
+    color:  #6c6c6c;
+    font-size: 18px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 24px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    margin-bottom: 25px;
 }
 .wrap_footer{
     display: inline-flex;
@@ -569,14 +579,50 @@ i.next-arrow2 {
 }
 .contact_us{
     margin-left: 99px;
-    margin-right: 80px;
+    margin-right: 81px;
 }
-
+.contact_us_up{
+    margin-bottom: 17px;
+}
+.contact_txt,
+.lets_stay_txt{
+    font-family: Montserrat;
+    color:  #212121;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
+    height: 102px;
+    width: 223px;
+}
 .wrap_useful{
     display: flex;
 }
+.wrap_useful ul{
+    list-style: none;
+}
+.useful_left_ul{
+    width: 132px;
+    height: 62px;
+}
 .useful_left{
-    margin-right: 103px;
+    margin-right: 79px;
+}
+.useful_left_ul,
+.useful_right_ul{
+    font-family: Montserrat;
+    color:  #212121;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 26px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+}
+.lets_stay{
+    margin-left: 79px;
+}
+.lets_stay_txt{
+    width: 368px;
+    height: 40px;
 }
 .asd {
     height: 200px;
