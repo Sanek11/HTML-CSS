@@ -12,6 +12,7 @@ body {
 .conteiner {
     width: 1366px;
     margin: 0 auto;
+    outline: solid 0.7px rgb(217, 222, 225);
 }
 
 .slider {
@@ -561,6 +562,21 @@ i.next-arrow2 {
     background-color:  #f7f7f7;
     width: 1366px;
     height: 384px;
+}
+.wrap_footer{
+    display: inline-flex;
+    width: 100%;
+}
+.contact_us{
+    margin-left: 99px;
+    margin-right: 80px;
+}
+
+.wrap_useful{
+    display: flex;
+}
+.useful_left{
+    margin-right: 103px;
 }
 .asd {
     height: 200px;
