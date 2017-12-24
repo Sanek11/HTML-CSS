@@ -617,13 +617,39 @@ i.next-arrow2 {
     line-height: 26px;/* Приближение из-за подстановки шрифтов */
     text-align: left;
 }
+.useful_left_ul a,
+.useful_right_ul a{
+    color: black;
+    text-decoration: none;
+}
 .lets_stay{
     margin-left: 79px;
 }
 .lets_stay_txt{
     width: 368px;
     height: 40px;
+    margin-bottom: 26px;
 }
+.email {
+    width: 370px; /* Ширина поля с кнопкой */
+    border: 1px solid #000; /* Параметры рамки */
+    min-height: 20px; /* Минимальная высота */
+    display: flex;
+}
+input[type="text"] {
+    width:370px ;
+    height:48px ;
+    padding-left: 20px;
+}
+
+
+input[type="submit"] {
+    width: 44px; /* Ширина кнопки */
+    height: 40px; /* Высота кнопки */
+    border: none; /* Убираем рамку */
+    background: url(img/plane.jpg) no-repeat 50% 50%; /* Параметры фона */
+}
+
 .asd {
     height: 200px;
 }
