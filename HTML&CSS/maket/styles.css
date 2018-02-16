@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,700');
+
 * {
     margin: 0;
     padding: 0;
@@ -143,7 +144,7 @@ a.search {
 .text_box a:hover,
 .second_block a:hover,
 .text_box3 a:hover,
-.pillow a:hover{
+.pillow a:hover {
     box-shadow: 0 0 0 #eee;
     position: relative;
     top: 2px;
@@ -496,98 +497,114 @@ i.next-arrow2 {
 .qwe2 {
     margin-bottom: 25px;
 }
-.pillow{
+
+.pillow {
     margin-left: 31px;
     margin-top: 165px;
 }
-.pillow .back{
+
+.pillow .back {
     margin-top: 34px;
 }
-.pillow .leftchair_txt{
+
+.pillow .leftchair_txt {
     width: 359px;
 }
 
 .qwe1:hover,
 .qwe2:hover,
 .qwe3:hover,
-.qwe4:hover{
+.qwe4:hover {
     outline: 1px solid black;
 }
-.mobile_app{
+
+.mobile_app {
     width: 1366px;
     height: 516px;
     margin-top: 120px;
     background-image: url(img/hand.jpg);
 }
-.mobile_wrap{
+
+.mobile_wrap {
     padding-left: 99px;
     padding-top: 74px;
 }
-.mobile_title{
+
+.mobile_title {
     font-family: Montserrat;
-    color:  #6c6c6c;
+    color: #6c6c6c;
     font-size: 18px;
     font-weight: 700;
     line-height: 48px;
     text-align: left;
 }
-.find{
+
+.find {
     height: 155px;
     width: 407px;
     font-family: Montserrat;
-    color:  #212121;
+    color: #212121;
     font-size: 62px;
     font-weight: 100;
     line-height: 72px;
     text-align: left;
 }
-.mobile_tag{
+
+.mobile_tag {
     font-family: Montserrat;
-    color:  #6c6c6c;
+    color: #6c6c6c;
     font-size: 22px;
     font-weight: 300;
     line-height: 24px;
     text-align: left;
     margin-bottom: 33px;
 }
+
 .google,
-.apple{
+.apple {
     width: 135px;
     height: 40px;
 }
-.apple{
+
+.apple {
     margin-right: 10px;
 }
-.footer{
-    background-color:  #f7f7f7;
+
+.footer {
+    background-color: #f7f7f7;
     width: 1366px;
     height: 384px;
     padding-top: 99px;
 }
-.footer_title{
+
+.footer_title {
     font-family: Montserrat;
-    color:  #6c6c6c;
-    font-size: 18px;/* Приближение из-за подстановки шрифтов */
+    color: #6c6c6c;
+    font-size: 18px;
     font-weight: 700;
-    line-height: 24px;/* Приближение из-за подстановки шрифтов */
+    line-height: 24px;
     text-align: left;
     margin-bottom: 25px;
 }
-.wrap_footer{
+
+.wrap_footer {
     display: inline-flex;
     width: 100%;
 }
-.contact_us{
+
+.contact_us {
     margin-left: 99px;
     margin-right: 81px;
 }
-.contact_us_up{
+
+.contact_us_up {
     margin-bottom: 17px;
 }
+
 .contact_txt,
-.lets_stay_txt{
+.lets_stay_txt {
     font-family: Montserrat;
-    color:  #212121;
+    color: #212121;
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
@@ -595,65 +612,78 @@ i.next-arrow2 {
     height: 102px;
     width: 223px;
 }
-.wrap_useful{
+
+.wrap_useful {
     display: flex;
 }
-.wrap_useful ul{
+
+.wrap_useful ul {
     list-style: none;
 }
-.useful_left_ul{
+
+.useful_left_ul {
     width: 132px;
     height: 62px;
 }
-.useful_left{
+
+.useful_left {
     margin-right: 79px;
 }
+
 .useful_left_ul,
-.useful_right_ul{
+.useful_right_ul {
     font-family: Montserrat;
-    color:  #212121;
-    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    color: #212121;
+    font-size: 14px;
     font-weight: 700;
-    line-height: 26px;/* Приближение из-за подстановки шрифтов */
+    line-height: 26px;
     text-align: left;
 }
+
 .useful_left_ul a,
-.useful_right_ul a{
+.useful_right_ul a {
     color: black;
     text-decoration: none;
 }
-.lets_stay{
+
+.lets_stay {
     margin-left: 79px;
 }
-.lets_stay_txt{
+
+.lets_stay_txt {
     width: 368px;
     height: 40px;
     margin-bottom: 26px;
 }
-.email {
-    width: 370px; /* Ширина поля с кнопкой */
-    border: 1px solid #000; /* Параметры рамки */
-    min-height: 20px; /* Минимальная высота */
-    display: flex;
-}
+
 input[type="text"] {
-    width: 318px;
-    height: 25px;
+    width: 370px;
+    height: 48px;
+    padding-left: 19px;
 }
 
-input[type="button"] {
-    margin-left: 0px;
-    height: 25px;
-    width: 50px;
-   /* background: blue;*/
-    background: url(img/plane.jpg) no-repeat 50% 50%;
-    color: white;
-    border: 0;
-    -webkit-appearance: none;
-}
-.copyright{
+.copyright {
     height: 28px;
     margin-top: 59px;
+    display: flex;
+}
+
+.all_rights_reserved{
+    width: 362px;
+    /*height: 9px;*/
+    margin-left: 98px;
+    font-family: Montserrat;
+color:  #6c6c6c;
+font-size: 12px;
+font-weight: 700;
+}
+
+.icons{
+    width: 129px;
+    height: 28px;
+}
+.icons i{
+    color: f082;
 }
 .asd {
     height: 200px;
