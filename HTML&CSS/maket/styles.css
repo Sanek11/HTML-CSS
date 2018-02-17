@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,700');
-
 * {
     margin: 0;
     padding: 0;
@@ -15,6 +14,9 @@ body {
     margin: 0 auto;
     outline: solid 0.7px rgb(217, 222, 225);
 }
+
+
+/*------------------------Здесь начинается Slider---------------------*/
 
 .slider {
     height: 800px;
@@ -176,6 +178,9 @@ a.search {
     background-color: #212121;
 }
 
+
+/*------------------Здесь начинается Text box 2---------------*/
+
 .featured {
     display: inline;
 }
@@ -328,6 +333,9 @@ i.next-arrow2 {
     outline: 1px solid black;
 }
 
+
+/*------------------Здесь начинается Second block---------------*/
+
 .second_block {
     display: flex;
     margin-top: 120px;
@@ -412,6 +420,9 @@ i.next-arrow2 {
     text-decoration: none;
 }
 
+
+/*-----------Здесь начинается Trending products-------------*/
+
 .trending_products {
     height: 1108px;
 }
@@ -449,6 +460,9 @@ i.next-arrow2 {
     padding-top: 287px;
 }
 
+
+/*------------------------Здесь начинается Slider 2-----------------*/
+
 .slider2 {
     background-image: url(img/slider.jpg);
     width: 1366px;
@@ -469,6 +483,9 @@ i.next-arrow2 {
     line-height: 48px;
     text-align: left;
 }
+
+
+/*---------------------------Здесь начинается Block 6-----------------------*/
 
 .block6 {
     display: flex;
@@ -517,6 +534,9 @@ i.next-arrow2 {
 .qwe4:hover {
     outline: 1px solid black;
 }
+
+
+/*----------------Здесь начинается Mobile app-----------------*/
 
 .mobile_app {
     width: 1366px;
@@ -569,6 +589,9 @@ i.next-arrow2 {
 .apple {
     margin-right: 10px;
 }
+
+
+/*-------------- Здесь начинается футер----------*/
 
 .footer {
     background-color: #f7f7f7;
@@ -668,23 +691,51 @@ input[type="text"] {
     display: flex;
 }
 
-.all_rights_reserved{
+.all_rights_reserved {
     width: 362px;
-    /*height: 9px;*/
     margin-left: 98px;
     font-family: Montserrat;
-color:  #6c6c6c;
-font-size: 12px;
-font-weight: 700;
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
 }
 
-.icons{
+.icons {
     width: 129px;
     height: 28px;
+    margin-left: 140px;
 }
-.icons i{
-    color: f082;
+
+a:hover .fa-facebook-square,
+a:hover .fa-twitter-square,
+a:hover .fa-google-plus-square,
+a:hover .fa-pinterest-square {
+    color: black;
 }
-.asd {
-    height: 200px;
+
+.fa-facebook-square,
+.fa-twitter-square,
+.fa-google-plus-square {
+    padding-right: 6px;
+}
+
+.icons i {
+    font-size: 28px;
+    color: rgb(108, 108, 108);
+}
+
+.terms {
+    margin-left: 175px;
+    width: 350px;
+    height: 12px;
+    font-family: Montserrat;
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.terms a {
+    text-decoration: none;
+    color: rgb(108, 108, 108);
 }
