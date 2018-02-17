@@ -639,7 +639,16 @@
 .row .fa-youtube-square {
     color: aliceblue;
 }
-
+a:hover .fa-twitter-square,
+a:hover .fa-facebook-square,
+a:hover .fa-linkedin-square,
+a:hover .fa-google,
+a:hover .fa-youtube-square,
+a:hover .fa-skype,
+a:hover .fa-at,
+a:hover .fa-phone{
+    color: #6a8faf;
+}
 .footer {
     height: 26px;
     width: 1280px;
