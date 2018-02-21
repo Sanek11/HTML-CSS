@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,700');
 * {
     margin: 0;
@@ -154,7 +155,7 @@ a.search {
 
 .navi {
     display: flex;
-    margin-top: 119px;
+    margin-top: 140px;
     justify-content: center;
     line-height: 40px;
 }
@@ -471,7 +472,7 @@ i.next-arrow2 {
 
 .navi2 {
     display: flex;
-    margin-top: 191px;
+    margin-top: 200px;
     justify-content: center;
 }
 
@@ -701,7 +702,7 @@ input[type="text"] {
 }
 
 .icons {
-    width: 129px;
+    width: 130px;
     height: 28px;
     margin-left: 140px;
 }
