@@ -19,17 +19,13 @@
     padding: 3% 2%;
 }
 
-/*.item {
-    background-color: darkblue;
-}*/
-
 .item-1 {
     width: 65%;
     min-height: 260px;
 }
+
 img{
   width: 100%;
-
   height: auto;
 }
 .parent-item {
@@ -50,10 +46,8 @@ img{
 }
 
 .block {
-  /*  background-color: navajowhite;*/
     width: 30%;
     min-height: 200px;
-  /*  margin-bottom: 3%;*/
 }
 
 .footer {
